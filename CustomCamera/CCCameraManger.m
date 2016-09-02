@@ -484,7 +484,7 @@
 - (UIImageView *)faceImageView
 {
     if (_faceImageView == nil) {
-        _faceImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"touch_focus"]];
+        _faceImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"face"]];
         _faceImageView.alpha = 0;
     }
     return _faceImageView;
